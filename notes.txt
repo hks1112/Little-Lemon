@@ -1,0 +1,25 @@
+Little Lemon API - User Credentials
+====================================
+
+Superuser (admin):
+  username: fatima
+  password: Edcr9711
+
+Manager user:
+  username: manager1
+  password: ManagerPass123!
+
+Delivery crew user:
+  username: delivery1
+  password: DeliveryPass123!
+
+Customer user:
+  username: customer1
+  password: CustomerPass123!
+
+(The manager1 / delivery1 / customer1 accounts and their group
+assignments are created automatically by running:
+    python manage.py bootstrap_demo
+after your first migration. Only the superuser must be created by
+hand with createsuperuser, and its password is only known to you -
+fill it in above before zipping your final submission.)
